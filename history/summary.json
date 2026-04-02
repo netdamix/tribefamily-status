@@ -5,18 +5,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/mytribefamily.com.ico",
     "slug": "tribe-family-app",
     "status": "down",
-    "uptime": "0.09%",
-    "uptimeDay": "0.09%",
-    "uptimeWeek": "0.09%",
-    "uptimeMonth": "0.09%",
-    "uptimeYear": "0.09%",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
     "time": 111,
     "timeDay": 111,
     "timeWeek": 111,
     "timeMonth": 111,
     "timeYear": 111,
     "dailyMinutesDown": {
-      "2026-04-02": 10
+      "2026-04-02": 13
     }
   },
   {
@@ -25,18 +25,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.mytribefamily.com.ico",
     "slug": "api-backend",
     "status": "down",
-    "uptime": "0.02%",
-    "uptimeDay": "0.02%",
-    "uptimeWeek": "0.02%",
-    "uptimeMonth": "0.02%",
-    "uptimeYear": "0.02%",
+    "uptime": "0.01%",
+    "uptimeDay": "0.01%",
+    "uptimeWeek": "0.01%",
+    "uptimeMonth": "0.01%",
+    "uptimeYear": "0.01%",
     "time": 337,
     "timeDay": 337,
     "timeWeek": 337,
     "timeMonth": 337,
     "timeYear": 337,
     "dailyMinutesDown": {
-      "2026-04-02": 10
+      "2026-04-02": 13
     }
   },
   {
@@ -44,19 +44,19 @@
     "url": "https://n8n.mytribefamily.com/healthz",
     "icon": "https://icons.duckduckgo.com/ip3/n8n.mytribefamily.com.ico",
     "slug": "n8n",
-    "status": "down",
-    "uptime": "89.06%",
-    "uptimeDay": "89.06%",
-    "uptimeWeek": "89.06%",
-    "uptimeMonth": "89.06%",
-    "uptimeYear": "89.06%",
-    "time": 482,
-    "timeDay": 482,
-    "timeWeek": 482,
-    "timeMonth": 482,
-    "timeYear": 482,
+    "status": "up",
+    "uptime": "68.46%",
+    "uptimeDay": "68.46%",
+    "uptimeWeek": "68.46%",
+    "uptimeMonth": "68.46%",
+    "uptimeYear": "68.46%",
+    "time": 425,
+    "timeDay": 425,
+    "timeWeek": 425,
+    "timeMonth": 425,
+    "timeYear": 425,
     "dailyMinutesDown": {
-      "2026-04-02": 1
+      "2026-04-02": 4
     }
   }
 ]
