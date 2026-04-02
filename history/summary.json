@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Tribe Family App",
+    "url": "https://mytribefamily.com",
+    "icon": "https://icons.duckduckgo.com/ip3/mytribefamily.com.ico",
+    "slug": "tribe-family-app",
+    "status": "down",
+    "uptime": "0.06%",
+    "uptimeDay": "0.06%",
+    "uptimeWeek": "0.06%",
+    "uptimeMonth": "0.06%",
+    "uptimeYear": "0.06%",
+    "time": 111,
+    "timeDay": 111,
+    "timeWeek": 111,
+    "timeMonth": 111,
+    "timeYear": 111,
+    "dailyMinutesDown": {
+      "2026-04-02": 9
+    }
+  },
+  {
+    "name": "API Backend",
+    "url": "https://api.mytribefamily.com/api/health",
+    "icon": "https://icons.duckduckgo.com/ip3/api.mytribefamily.com.ico",
+    "slug": "api-backend",
+    "status": "down",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 337,
+    "timeDay": 337,
+    "timeWeek": 337,
+    "timeMonth": 337,
+    "timeYear": 337,
+    "dailyMinutesDown": {
+      "2026-04-02": 9
+    }
+  },
+  {
+    "name": "n8n",
+    "url": "https://n8n.mytribefamily.com/healthz",
+    "icon": "https://icons.duckduckgo.com/ip3/n8n.mytribefamily.com.ico",
+    "slug": "n8n",
+    "status": "down",
+    "uptime": "99.09%",
+    "uptimeDay": "99.09%",
+    "uptimeWeek": "99.09%",
+    "uptimeMonth": "99.09%",
+    "uptimeYear": "99.09%",
+    "time": 482,
+    "timeDay": 482,
+    "timeWeek": 482,
+    "timeMonth": 482,
+    "timeYear": 482,
+    "dailyMinutesDown": {
+      "2026-04-02": 0
+    }
+  }
+]
