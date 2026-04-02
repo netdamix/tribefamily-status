@@ -12,6 +12,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: upptime/uptime-monitor@master
+      - name: Check response times
+        uses: upptime/uptime-monitor@master
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+      - name: Generate status website
+        uses: upptime/uptime-monitor@master
+        with:
+          command: site
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+      - name: Generate summary
+        uses: upptime/uptime-monitor@master
+        with:
+          command: summary
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
