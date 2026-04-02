@@ -11,6 +11,6 @@ jobs:
   uptime:
     runs-on: ubuntu-latest
     steps:
-      - uses: upptime/uptime-monitor@master
-        with:
-          UPPTIME_GH_KEY: ${{ secrets.GH_PAT }}
+      - uses: upptime/uptime-monitor@v2
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
