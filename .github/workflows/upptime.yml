@@ -16,6 +16,8 @@ jobs:
         uses: upptime/uptime-monitor@master
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
+      - name: Remove old site directory
+        run: rm -rf site
       - name: Generate status website
         uses: upptime/uptime-monitor@master
         with:
