@@ -16,7 +16,7 @@
     "timeMonth": 111,
     "timeYear": 111,
     "dailyMinutesDown": {
-      "2026-04-03": 462,
+      "2026-04-03": 514,
       "2026-04-02": 645
     }
   },
@@ -37,7 +37,7 @@
     "timeMonth": 337,
     "timeYear": 337,
     "dailyMinutesDown": {
-      "2026-04-03": 462,
+      "2026-04-03": 514,
       "2026-04-02": 644
     }
   },
@@ -46,19 +46,19 @@
     "url": "https://n8n.mytribefamily.com/healthz",
     "icon": "https://icons.duckduckgo.com/ip3/n8n.mytribefamily.com.ico",
     "slug": "n8n",
-    "status": "down",
-    "uptime": "85.57%",
-    "uptimeDay": "85.57%",
-    "uptimeWeek": "85.57%",
-    "uptimeMonth": "85.57%",
-    "uptimeYear": "85.57%",
-    "time": 444,
-    "timeDay": 444,
-    "timeWeek": 444,
-    "timeMonth": 444,
-    "timeYear": 444,
+    "status": "up",
+    "uptime": "81.76%",
+    "uptimeDay": "81.76%",
+    "uptimeWeek": "81.76%",
+    "uptimeMonth": "81.76%",
+    "uptimeYear": "81.76%",
+    "time": 456,
+    "timeDay": 456,
+    "timeWeek": 456,
+    "timeMonth": 456,
+    "timeYear": 456,
     "dailyMinutesDown": {
-      "2026-04-03": 85,
+      "2026-04-03": 136,
       "2026-04-02": 75
     }
   }
