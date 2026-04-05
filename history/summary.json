@@ -16,7 +16,7 @@
     "timeMonth": 111,
     "timeYear": 111,
     "dailyMinutesDown": {
-      "2026-04-05": 465,
+      "2026-04-05": 466,
       "2026-04-04": 1440,
       "2026-04-03": 1440,
       "2026-04-02": 645
@@ -39,7 +39,7 @@
     "timeMonth": 337,
     "timeYear": 337,
     "dailyMinutesDown": {
-      "2026-04-05": 465,
+      "2026-04-05": 466,
       "2026-04-04": 1440,
       "2026-04-03": 1440,
       "2026-04-02": 644
@@ -51,18 +51,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/n8n.mytribefamily.com.ico",
     "slug": "n8n",
     "status": "down",
-    "uptime": "91.28%",
-    "uptimeDay": "93.73%",
-    "uptimeWeek": "91.28%",
-    "uptimeMonth": "91.28%",
-    "uptimeYear": "91.28%",
+    "uptime": "91.26%",
+    "uptimeDay": "93.66%",
+    "uptimeWeek": "91.26%",
+    "uptimeMonth": "91.26%",
+    "uptimeYear": "91.26%",
     "time": 478,
     "timeDay": 499,
     "timeWeek": 478,
     "timeMonth": 478,
     "timeYear": 478,
     "dailyMinutesDown": {
-      "2026-04-05": 0,
+      "2026-04-05": 1,
       "2026-04-04": 91,
       "2026-04-03": 182,
       "2026-04-02": 75
