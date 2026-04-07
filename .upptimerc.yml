@@ -3,15 +3,18 @@ repo: tribefamily-status
 sites:
   - name: Tribe Family App
     url: https://mytribefamily.com
+    expectedStatusCodes:
+      - 200
+      - 403
   - name: API Backend
-    url: https://api.mytribefamily.com/api/health
+    url: https://api.mytribefamily.com/api/v1/health
   - name: n8n
     url: https://n8n.mytribefamily.com/healthz
 assignees:
   - netdamix
 status-website:
   cname: status.mytribefamily.com
-  name: Tribe Family — Status
+  name: "Tribe Family Status"
   theme: light
 i18n:
-  footer: "Tribe Family monitoring — mis à jour toutes les 5 min"
+  footer: "Tribe Family monitoring - updated every 5 min"
