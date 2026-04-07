@@ -301,11 +301,15 @@ var repo = "tribefamily-status";
 var sites = [
 	{
 		name: "Tribe Family App",
-		url: "https://mytribefamily.com"
+		url: "https://mytribefamily.com",
+		expectedStatusCodes: [
+			200,
+			403
+		]
 	},
 	{
 		name: "API Backend",
-		url: "https://api.mytribefamily.com/api/health"
+		url: "https://api.mytribefamily.com/api/v1/health"
 	},
 	{
 		name: "n8n",
@@ -344,7 +348,7 @@ var i18n = {
 	ms: "ms",
 	loading: "Loading",
 	navGitHub: "GitHub",
-	footer: "Tribe Family monitoring — mis à jour toutes les 5 min",
+	footer: "Tribe Family monitoring - updated every 5 min",
 	rateLimitExceededTitle: "Rate limit exceeded",
 	rateLimitExceededIntro: "You have exceeded the number of requests you can do in an hour, so you'll have to wait before accessing this website again. Alternately, you can add a GitHub Personal Access Token to continue to use this website.",
 	rateLimitExceededWhatDoesErrorMean: "What does this error mean?",
@@ -386,7 +390,7 @@ var config$1 = {
 	assignees: assignees,
 	"status-website": {
 	cname: "status.mytribefamily.com",
-	name: "Tribe Family — Status",
+	name: "Tribe Family Status",
 	theme: "light"
 },
 	i18n: i18n,
