@@ -31,8 +31,8 @@
     "slug": "api-backend",
     "status": "down",
     "uptime": "74.56%",
-    "uptimeDay": "99.66%",
-    "uptimeWeek": "87.91%",
+    "uptimeDay": "99.59%",
+    "uptimeWeek": "87.90%",
     "uptimeMonth": "74.56%",
     "uptimeYear": "74.56%",
     "time": 459,
@@ -41,7 +41,7 @@
     "timeMonth": 459,
     "timeYear": 459,
     "dailyMinutesDown": {
-      "2026-04-28": 5,
+      "2026-04-28": 6,
       "2026-04-27": 487,
       "2026-04-26": 498,
       "2026-04-23": 57,
@@ -83,7 +83,7 @@
     "timeMonth": 449,
     "timeYear": 449,
     "dailyMinutesDown": {
-      "2026-04-28": 1371,
+      "2026-04-28": 1372,
       "2026-04-27": 1440,
       "2026-04-26": 1440,
       "2026-04-25": 1440,
