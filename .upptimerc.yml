@@ -1,20 +1,48 @@
 owner: netdamix
 repo: tribefamily-status
+
+# 2026-05-17 — Cleanup post-launch
+# - n8n retiré (remplacé par Bull crons NestJS depuis 2026-03)
+# - Marketing site (root) + API séparé
+# - Status page elle-même monitorée
+# - Crisp chat (3rd-party) en best-effort
 sites:
-  - name: Tribe Family App
+  - name: Marketing
     url: https://mytribefamily.com
     expectedStatusCodes:
       - 200
       - 403
+    icon: https://mytribefamily.com/favicon.ico
+  - name: Dashboard
+    url: https://mytribefamily.com/dashboard
+    expectedStatusCodes:
+      - 200
+      - 302
+      - 307
+    icon: https://mytribefamily.com/favicon.ico
   - name: API Backend
     url: https://api.mytribefamily.com/api/v1/health
-  - name: n8n
-    url: https://n8n.mytribefamily.com/healthz
+    icon: https://mytribefamily.com/favicon.ico
+  - name: Status page
+    url: https://status.mytribefamily.com
+    icon: https://mytribefamily.com/favicon.ico
+
 assignees:
   - netdamix
+
 status-website:
   cname: status.mytribefamily.com
-  name: "Tribe Family Status"
-  theme: light
+  logoUrl: https://mytribefamily.com/images/Logo-transparent.png
+  name: "Tribe Family — Status"
+  introTitle: "**Tribe Family** monitoring en temps réel"
+  introMessage: "Cette page affiche l'état de nos services en temps réel, mis à jour toutes les 5 minutes. Pour tout incident ou question, contactez [hello@mytribefamily.com](mailto:hello@mytribefamily.com)."
+  navbar:
+    - title: Accueil
+      href: /
+    - title: Site Tribe Family
+      href: https://mytribefamily.com
+    - title: Code
+      href: https://github.com/netdamix/tribefamily-status
+
 i18n:
-  footer: "Tribe Family monitoring - updated every 5 min"
+  footer: "© Tribe Family — données mises à jour toutes les 5 min"
