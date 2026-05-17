@@ -333,9 +333,9 @@ var assignees = [
 	"netdamix"
 ];
 var i18n = {
-	activeIncidents: "Active Incidents",
+	activeIncidents: "Active incidents",
 	allSystemsOperational: "All systems are operational",
-	incidentReport: "Incident #$NUMBER report →",
+	incidentReport: "Incident report:",
 	activeIncidentSummary: "Opened at $DATE with $POSTS posts",
 	incidentTitle: "Incident $NUMBER Details",
 	incidentDetails: "Incident Details",
@@ -346,9 +346,9 @@ var i18n = {
 	incidentViewOnGitHub: "View and Subscribe on GitHub",
 	incidentCommentSummary: "Posted at $DATE by $AUTHOR",
 	incidentBack: "← Back to all incidents",
-	pastIncidents: "Past Incidents",
+	pastIncidents: "Past incidents",
 	pastIncidentsResolved: "Resolved in $MINUTES minutes with $POSTS posts",
-	liveStatus: "Live Status",
+	liveStatus: "Live status",
 	overallUptime: "Overall uptime: $UPTIME",
 	overallUptimeTitle: "Overall uptime",
 	averageResponseTime: "Average response time: $TIMEms",
@@ -361,7 +361,7 @@ var i18n = {
 	ms: "ms",
 	loading: "Loading",
 	navGitHub: "GitHub",
-	footer: "© Tribe Family — données mises à jour toutes les 5 min",
+	footer: "© Tribe Family — data refreshed every 5 min",
 	rateLimitExceededTitle: "Rate limit exceeded",
 	rateLimitExceededIntro: "You have exceeded the number of requests you can do in an hour, so you'll have to wait before accessing this website again. Alternately, you can add a GitHub Personal Access Token to continue to use this website.",
 	rateLimitExceededWhatDoesErrorMean: "What does this error mean?",
@@ -379,7 +379,7 @@ var i18n = {
 	errorText: "You can try again in a few moments.",
 	errorHome: "Go to the homepage",
 	pastScheduledMaintenance: "Past Scheduled Maintenance",
-	scheduledMaintenance: "Scheduled Maintenance",
+	scheduledMaintenance: "Scheduled maintenance",
 	scheduledMaintenanceSummaryStarted: "Started at $DATE for $DURATION minutes",
 	scheduledMaintenanceSummaryStarts: "Starts at $DATE for $DURATION minutes",
 	startedAt: "Started at",
@@ -393,7 +393,15 @@ var i18n = {
 	duration30D: "30d",
 	duration1Y: "1y",
 	durationAll: "all",
-	locale: "en-US"
+	locale: "en-US",
+	status: "Status",
+	description: "Description",
+	responseTime: "Response time",
+	uptime: "Uptime",
+	last7Days: "7d",
+	last30Days: "30d",
+	last1Year: "1y",
+	history: "Uptime history"
 };
 var path = "https://status.mytribefamily.com";
 var config$1 = {
@@ -405,19 +413,19 @@ var config$1 = {
 	cname: "status.mytribefamily.com",
 	logoUrl: "https://mytribefamily.com/images/Logo-transparent.png",
 	name: "Tribe Family — Status",
-	introTitle: "**Tribe Family** monitoring en temps réel",
-	introMessage: "Cette page affiche l'état de nos services en temps réel, mis à jour toutes les 5 minutes. Pour tout incident ou question, contactez [hello@mytribefamily.com](mailto:hello@mytribefamily.com).",
+	introTitle: "**Tribe Family** real-time monitoring",
+	introMessage: "This page shows the current status of our services in real time, refreshed every 5 minutes. For any incident or question, reach us at [hello@mytribefamily.com](mailto:hello@mytribefamily.com).",
 	navbar: [
 		{
-			title: "Accueil",
+			title: "Home",
 			href: "/"
 		},
 		{
-			title: "Site Tribe Family",
+			title: "Tribe Family site",
 			href: "https://mytribefamily.com"
 		},
 		{
-			title: "Code",
+			title: "Source",
 			href: "https://github.com/netdamix/tribefamily-status"
 		}
 	]
