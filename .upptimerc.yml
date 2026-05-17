@@ -2,10 +2,9 @@ owner: netdamix
 repo: tribefamily-status
 
 # 2026-05-17 — Cleanup post-launch
-# - n8n retiré (remplacé par Bull crons NestJS depuis 2026-03)
-# - Marketing site (root) + API séparé
-# - Status page elle-même monitorée
-# - Crisp chat (3rd-party) en best-effort
+# - n8n removed (decommissioned 2026-03, replaced by Bull crons)
+# - Marketing site + Dashboard + API monitored separately
+# - Status page monitors itself
 sites:
   - name: Marketing
     url: https://mytribefamily.com
@@ -34,15 +33,29 @@ status-website:
   cname: status.mytribefamily.com
   logoUrl: https://mytribefamily.com/images/Logo-transparent.png
   name: "Tribe Family — Status"
-  introTitle: "**Tribe Family** monitoring en temps réel"
-  introMessage: "Cette page affiche l'état de nos services en temps réel, mis à jour toutes les 5 minutes. Pour tout incident ou question, contactez [hello@mytribefamily.com](mailto:hello@mytribefamily.com)."
+  introTitle: "**Tribe Family** real-time monitoring"
+  introMessage: "This page shows the current status of our services in real time, refreshed every 5 minutes. For any incident or question, reach us at [hello@mytribefamily.com](mailto:hello@mytribefamily.com)."
   navbar:
-    - title: Accueil
+    - title: Home
       href: /
-    - title: Site Tribe Family
+    - title: Tribe Family site
       href: https://mytribefamily.com
-    - title: Code
+    - title: Source
       href: https://github.com/netdamix/tribefamily-status
 
 i18n:
-  footer: "© Tribe Family — données mises à jour toutes les 5 min"
+  activeIncidents: Active incidents
+  allSystemsOperational: All systems are operational
+  incidentReport: "Incident report:"
+  scheduledMaintenance: Scheduled maintenance
+  pastIncidents: Past incidents
+  status: Status
+  description: Description
+  responseTime: Response time
+  uptime: Uptime
+  last7Days: 7d
+  last30Days: 30d
+  last1Year: 1y
+  liveStatus: Live status
+  history: Uptime history
+  footer: "© Tribe Family — data refreshed every 5 min"
