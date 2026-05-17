@@ -30,6 +30,20 @@ jobs:
           command: summary
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
+      - name: Inject Tribe Family brand CSS
+        # 2026-05-17 — Upptime regenerates the whole `site/` dir from
+        # @upptime/uptime-monitor each run (cf. `rm -rf site` above), so
+        # any custom CSS committed under `site/static/global.css` is
+        # wiped. We keep the override at `custom/global.css` at the repo
+        # root (untouched by the cleanup) and copy it into the freshly
+        # generated export dir right before deploy.
+        run: |
+          if [ -f custom/global.css ]; then
+            cp custom/global.css site/status-page/__sapper__/export/global.css
+            echo "✓ Brand CSS injected ($(wc -c < custom/global.css) bytes)"
+          else
+            echo "::warning::custom/global.css not found — using default Upptime theme"
+          fi
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
