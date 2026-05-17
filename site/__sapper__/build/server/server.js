@@ -300,20 +300,33 @@ var owner = "netdamix";
 var repo = "tribefamily-status";
 var sites = [
 	{
-		name: "Tribe Family App",
+		name: "Marketing",
 		url: "https://mytribefamily.com",
 		expectedStatusCodes: [
 			200,
 			403
-		]
+		],
+		icon: "https://mytribefamily.com/favicon.ico"
+	},
+	{
+		name: "Dashboard",
+		url: "https://mytribefamily.com/dashboard",
+		expectedStatusCodes: [
+			200,
+			302,
+			307
+		],
+		icon: "https://mytribefamily.com/favicon.ico"
 	},
 	{
 		name: "API Backend",
-		url: "https://api.mytribefamily.com/api/v1/health"
+		url: "https://api.mytribefamily.com/api/v1/health",
+		icon: "https://mytribefamily.com/favicon.ico"
 	},
 	{
-		name: "n8n",
-		url: "https://n8n.mytribefamily.com/healthz"
+		name: "Status page",
+		url: "https://status.mytribefamily.com",
+		icon: "https://mytribefamily.com/favicon.ico"
 	}
 ];
 var assignees = [
@@ -348,7 +361,7 @@ var i18n = {
 	ms: "ms",
 	loading: "Loading",
 	navGitHub: "GitHub",
-	footer: "Tribe Family monitoring - updated every 5 min",
+	footer: "© Tribe Family — données mises à jour toutes les 5 min",
 	rateLimitExceededTitle: "Rate limit exceeded",
 	rateLimitExceededIntro: "You have exceeded the number of requests you can do in an hour, so you'll have to wait before accessing this website again. Alternately, you can add a GitHub Personal Access Token to continue to use this website.",
 	rateLimitExceededWhatDoesErrorMean: "What does this error mean?",
@@ -390,8 +403,24 @@ var config$1 = {
 	assignees: assignees,
 	"status-website": {
 	cname: "status.mytribefamily.com",
-	name: "Tribe Family Status",
-	theme: "light"
+	logoUrl: "https://mytribefamily.com/images/Logo-transparent.png",
+	name: "Tribe Family — Status",
+	introTitle: "**Tribe Family** monitoring en temps réel",
+	introMessage: "Cette page affiche l'état de nos services en temps réel, mis à jour toutes les 5 minutes. Pour tout incident ou question, contactez [hello@mytribefamily.com](mailto:hello@mytribefamily.com).",
+	navbar: [
+		{
+			title: "Accueil",
+			href: "/"
+		},
+		{
+			title: "Site Tribe Family",
+			href: "https://mytribefamily.com"
+		},
+		{
+			title: "Code",
+			href: "https://github.com/netdamix/tribefamily-status"
+		}
+	]
 },
 	i18n: i18n,
 	path: path
@@ -804,12 +833,10 @@ const Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 	return `${($$result.head += '<!-- HEAD_svelte-1258swp_START -->' + `${($$result.title = `<title>${escape(title)}</title>`, "")}` + '<!-- HEAD_svelte-1258swp_END -->', "")}
 
 <header class="svelte-ngkazm">${config$1["status-website"]
-	? `${config$1["status-website"].introTitle
-		? `<h1><!-- HTML_TAG_START -->${snarkdown__default["default"](config$1["status-website"].introTitle)}<!-- HTML_TAG_END --></h1>`
-		: ``}
-    ${config$1["status-website"].introMessage
-		? `<p class="lead svelte-ngkazm"><!-- HTML_TAG_START -->${snarkdown__default["default"](config$1["status-website"].introMessage)}<!-- HTML_TAG_END --></p>`
-		: ``}`
+	? `${`<h1><!-- HTML_TAG_START -->${snarkdown__default["default"](config$1["status-website"].introTitle)}<!-- HTML_TAG_END --></h1>`
+		}
+    ${`<p class="lead svelte-ngkazm"><!-- HTML_TAG_START -->${snarkdown__default["default"](config$1["status-website"].introMessage)}<!-- HTML_TAG_END --></p>`
+		}`
 	: ``}</header>
 
 ${validate_component(ActiveIncidents, "ActiveIncidents").$$render($$result, {}, {}, {})}
