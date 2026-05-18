@@ -361,7 +361,7 @@ var i18n = {
 	ms: "ms",
 	loading: "Loading",
 	navGitHub: "GitHub",
-	footer: "© Tribe Family — data refreshed every 5 min",
+	footer: "© Tribe Family. Data refreshed every 5 min.",
 	rateLimitExceededTitle: "Rate limit exceeded",
 	rateLimitExceededIntro: "You have exceeded the number of requests you can do in an hour, so you'll have to wait before accessing this website again. Alternately, you can add a GitHub Personal Access Token to continue to use this website.",
 	rateLimitExceededWhatDoesErrorMean: "What does this error mean?",
@@ -412,7 +412,7 @@ var config$1 = {
 	"status-website": {
 	cname: "status.mytribefamily.com",
 	logoUrl: "https://mytribefamily.com/images/Logo-transparent.png",
-	name: "Tribe Family — Status",
+	name: "Tribe Family Status",
 	introTitle: "**Tribe Family** real-time monitoring",
 	introMessage: "This page shows the current status of our services in real time, refreshed every 5 minutes. For any incident or question, reach us at [hello@mytribefamily.com](mailto:hello@mytribefamily.com).",
 	navbar: [
