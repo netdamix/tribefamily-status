@@ -1,9 +1,9 @@
 owner: netdamix
 repo: tribefamily-status
 
-# 2026-05-17 — Cleanup post-launch
+# 2026-05-17. Cleanup post-launch.
 # - n8n removed (decommissioned 2026-03, replaced by Bull crons)
-# - Marketing site + Dashboard + API monitored separately
+# - Marketing site, Dashboard and API monitored separately
 # - Status page monitors itself
 sites:
   - name: Marketing
@@ -32,7 +32,7 @@ assignees:
 status-website:
   cname: status.mytribefamily.com
   logoUrl: https://mytribefamily.com/images/Logo-transparent.png
-  name: "Tribe Family — Status"
+  name: "Tribe Family Status"
   introTitle: "**Tribe Family** real-time monitoring"
   introMessage: "This page shows the current status of our services in real time, refreshed every 5 minutes. For any incident or question, reach us at [hello@mytribefamily.com](mailto:hello@mytribefamily.com)."
   navbar:
@@ -58,4 +58,4 @@ i18n:
   last1Year: 1y
   liveStatus: Live status
   history: Uptime history
-  footer: "© Tribe Family — data refreshed every 5 min"
+  footer: "© Tribe Family. Data refreshed every 5 min."
