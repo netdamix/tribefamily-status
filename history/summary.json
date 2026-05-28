@@ -23,18 +23,18 @@
     "icon": "https://mytribefamily.com/favicon.ico",
     "slug": "dashboard",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.99%",
+    "uptimeDay": "99.91%",
+    "uptimeWeek": "99.99%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
     "time": 2267,
     "timeDay": 2395,
     "timeWeek": 2395,
     "timeMonth": 2267,
     "timeYear": 2267,
     "dailyMinutesDown": {
-      "2026-05-28": 0
+      "2026-05-28": 1
     }
   },
   {
@@ -43,11 +43,11 @@
     "icon": "https://mytribefamily.com/favicon.ico",
     "slug": "api-backend",
     "status": "down",
-    "uptime": "84.80%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "95.05%",
+    "uptime": "84.79%",
+    "uptimeDay": "99.93%",
+    "uptimeWeek": "95.04%",
     "uptimeMonth": "94.35%",
-    "uptimeYear": "84.80%",
+    "uptimeYear": "84.79%",
     "time": 457,
     "timeDay": 691,
     "timeWeek": 527,
@@ -92,7 +92,8 @@
       "2026-05-20": 95,
       "2026-05-22": 109,
       "2026-05-21": 13,
-      "2026-05-25": 377
+      "2026-05-25": 377,
+      "2026-05-28": 1
     }
   },
   {
