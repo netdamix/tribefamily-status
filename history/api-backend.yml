@@ -1,7 +1,7 @@
 url: https://api.mytribefamily.com/api/v1/health
-status: up
-code: 200
-responseTime: 388
-lastUpdated: 2026-07-09T00:17:59.401Z
+status: down
+code: 404
+responseTime: 329
+lastUpdated: 2026-07-09T11:15:51.530Z
 startTime: 2026-04-02T13:15:30.641Z
 generator: Upptime <https://github.com/upptime/upptime>
