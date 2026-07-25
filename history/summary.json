@@ -47,7 +47,7 @@
     "url": "https://api.mytribefamily.com/api/v1/health",
     "icon": "https://mytribefamily.com/favicon.ico",
     "slug": "api-backend",
-    "status": "up",
+    "status": "down",
     "uptime": "96.61%",
     "uptimeDay": "94.23%",
     "uptimeWeek": "94.67%",
