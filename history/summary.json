@@ -4,20 +4,21 @@
     "url": "https://mytribefamily.com",
     "icon": "https://mytribefamily.com/favicon.ico",
     "slug": "marketing",
-    "status": "up",
+    "status": "down",
     "uptime": "99.64%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.64%",
-    "time": 8956,
-    "timeDay": 0,
-    "timeWeek": 0,
-    "timeMonth": 0,
-    "timeYear": 8956,
+    "time": 6880,
+    "timeDay": 649,
+    "timeWeek": 649,
+    "timeMonth": 649,
+    "timeYear": 6880,
     "dailyMinutesDown": {
       "2026-06-11": 333,
-      "2026-06-10": 85
+      "2026-06-10": 85,
+      "2026-08-05": 0
     }
   },
   {
@@ -47,14 +48,14 @@
     "url": "https://api.mytribefamily.com/api/v1/health",
     "icon": "https://mytribefamily.com/favicon.ico",
     "slug": "api-backend",
-    "status": "down",
-    "uptime": "97.03%",
-    "uptimeDay": "80.65%",
-    "uptimeWeek": "82.66%",
-    "uptimeMonth": "88.72%",
-    "uptimeYear": "97.03%",
+    "status": "up",
+    "uptime": "96.96%",
+    "uptimeDay": "71.69%",
+    "uptimeWeek": "81.38%",
+    "uptimeMonth": "88.43%",
+    "uptimeYear": "96.96%",
     "time": 485,
-    "timeDay": 377,
+    "timeDay": 430,
     "timeWeek": 468,
     "timeMonth": 486,
     "timeYear": 485,
@@ -90,7 +91,7 @@
       "2026-08-02": 219,
       "2026-08-03": 247,
       "2026-08-04": 226,
-      "2026-08-05": 104
+      "2026-08-05": 233
     }
   },
   {
