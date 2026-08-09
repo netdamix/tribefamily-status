@@ -49,18 +49,18 @@
     "icon": "https://mytribefamily.com/favicon.ico",
     "slug": "api-backend",
     "status": "down",
-    "uptime": "97.27%",
-    "uptimeDay": "86.90%",
-    "uptimeWeek": "85.91%",
-    "uptimeMonth": "88.45%",
-    "uptimeYear": "97.27%",
+    "uptime": "97.31%",
+    "uptimeDay": "86.82%",
+    "uptimeWeek": "85.90%",
+    "uptimeMonth": "88.61%",
+    "uptimeYear": "97.31%",
     "time": 484,
     "timeDay": 461,
     "timeWeek": 459,
     "timeMonth": 485,
     "timeYear": 484,
     "dailyMinutesDown": {
-      "2026-07-11": 222,
+      "2026-07-11": 151,
       "2026-07-12": 89,
       "2026-07-13": 171,
       "2026-07-14": 57,
@@ -87,7 +87,7 @@
       "2026-08-05": 317,
       "2026-08-06": 167,
       "2026-08-08": 208,
-      "2026-08-09": 38
+      "2026-08-09": 39
     }
   },
   {
