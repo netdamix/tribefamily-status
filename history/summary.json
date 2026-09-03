@@ -48,7 +48,7 @@
     "url": "https://api.mytribefamily.com/api/v1/health",
     "icon": "https://mytribefamily.com/favicon.ico",
     "slug": "api-backend",
-    "status": "up",
+    "status": "down",
     "uptime": "97.31%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "91.32%",
@@ -57,7 +57,7 @@
     "time": 478,
     "timeDay": 0,
     "timeWeek": 558,
-    "timeMonth": 449,
+    "timeMonth": 448,
     "timeYear": 478,
     "dailyMinutesDown": {
       "2026-07-25": 55,
