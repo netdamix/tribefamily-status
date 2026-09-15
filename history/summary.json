@@ -27,17 +27,21 @@
     "icon": "https://mytribefamily.com/favicon.ico",
     "slug": "dashboard",
     "status": "up",
-    "uptime": "100.00%",
+    "uptime": "99.60%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptimeYear": "99.60%",
     "time": 4550,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 4550,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-28": 271,
+      "2026-06-11": 333,
+      "2026-06-10": 84
+    }
   },
   {
     "name": "API Backend",
@@ -45,18 +49,18 @@
     "icon": "https://mytribefamily.com/favicon.ico",
     "slug": "api-backend",
     "status": "down",
-    "uptime": "97.22%",
-    "uptimeDay": "98.58%",
-    "uptimeWeek": "98.73%",
-    "uptimeMonth": "92.50%",
-    "uptimeYear": "97.22%",
+    "uptime": "97.24%",
+    "uptimeDay": "98.50%",
+    "uptimeWeek": "98.71%",
+    "uptimeMonth": "92.49%",
+    "uptimeYear": "97.24%",
     "time": 476,
     "timeDay": 422,
     "timeWeek": 472,
     "timeMonth": 454,
     "timeYear": 476,
     "dailyMinutesDown": {
-      "2026-07-28": 335,
+      "2026-07-28": 285,
       "2026-07-29": 285,
       "2026-07-30": 499,
       "2026-07-31": 191,
@@ -93,7 +97,7 @@
       "2026-09-11": 33,
       "2026-09-12": 15,
       "2026-09-14": 29,
-      "2026-09-15": 20
+      "2026-09-15": 21
     }
   },
   {
