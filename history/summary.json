@@ -50,9 +50,9 @@
     "slug": "api-backend",
     "status": "up",
     "uptime": "97.24%",
-    "uptimeDay": "89.63%",
-    "uptimeWeek": "96.19%",
-    "uptimeMonth": "92.24%",
+    "uptimeDay": "89.06%",
+    "uptimeWeek": "96.11%",
+    "uptimeMonth": "92.22%",
     "uptimeYear": "97.24%",
     "time": 475,
     "timeDay": 455,
@@ -98,7 +98,7 @@
       "2026-09-12": 15,
       "2026-09-14": 29,
       "2026-09-15": 126,
-      "2026-09-16": 149
+      "2026-09-16": 157
     }
   },
   {
