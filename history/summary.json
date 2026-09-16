@@ -48,16 +48,16 @@
     "url": "https://api.mytribefamily.com/api/v1/health",
     "icon": "https://mytribefamily.com/favicon.ico",
     "slug": "api-backend",
-    "status": "down",
-    "uptime": "97.27%",
-    "uptimeDay": "91.15%",
-    "uptimeWeek": "97.67%",
-    "uptimeMonth": "92.36%",
-    "uptimeYear": "97.27%",
+    "status": "up",
+    "uptime": "97.26%",
+    "uptimeDay": "89.73%",
+    "uptimeWeek": "97.46%",
+    "uptimeMonth": "92.31%",
+    "uptimeYear": "97.26%",
     "time": 475,
-    "timeDay": 416,
-    "timeWeek": 462,
-    "timeMonth": 452,
+    "timeDay": 413,
+    "timeWeek": 460,
+    "timeMonth": 451,
     "timeYear": 475,
     "dailyMinutesDown": {
       "2026-07-28": 112,
@@ -98,7 +98,7 @@
       "2026-09-12": 15,
       "2026-09-14": 29,
       "2026-09-15": 126,
-      "2026-09-16": 1
+      "2026-09-16": 21
     }
   },
   {
