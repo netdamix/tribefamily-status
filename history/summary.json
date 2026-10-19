@@ -6,9 +6,9 @@
     "slug": "marketing",
     "status": "up",
     "uptime": "99.53%",
-    "uptimeDay": "63.48%",
-    "uptimeWeek": "94.78%",
-    "uptimeMonth": "98.80%",
+    "uptimeDay": "62.49%",
+    "uptimeWeek": "94.64%",
+    "uptimeMonth": "98.77%",
     "uptimeYear": "99.53%",
     "time": 7247,
     "timeDay": 0,
@@ -19,7 +19,7 @@
       "2026-06-11": 333,
       "2026-06-10": 85,
       "2026-08-05": 93,
-      "2026-10-19": 526
+      "2026-10-19": 540
     }
   },
   {
@@ -49,7 +49,7 @@
     "url": "https://api.mytribefamily.com/api/v1/health",
     "icon": "https://mytribefamily.com/favicon.ico",
     "slug": "api-backend",
-    "status": "up",
+    "status": "down",
     "uptime": "97.73%",
     "uptimeDay": "98.51%",
     "uptimeWeek": "99.60%",
