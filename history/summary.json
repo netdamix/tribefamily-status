@@ -5,11 +5,11 @@
     "icon": "https://mytribefamily.com/favicon.ico",
     "slug": "marketing",
     "status": "up",
-    "uptime": "99.76%",
-    "uptimeDay": "97.99%",
-    "uptimeWeek": "99.71%",
-    "uptimeMonth": "99.93%",
-    "uptimeYear": "99.76%",
+    "uptime": "99.75%",
+    "uptimeDay": "96.45%",
+    "uptimeWeek": "99.49%",
+    "uptimeMonth": "99.88%",
+    "uptimeYear": "99.75%",
     "time": 7247,
     "timeDay": 0,
     "timeWeek": 0,
@@ -19,7 +19,7 @@
       "2026-06-11": 333,
       "2026-06-10": 85,
       "2026-08-05": 93,
-      "2026-10-19": 29
+      "2026-10-19": 51
     }
   },
   {
@@ -58,7 +58,7 @@
     "time": 474,
     "timeDay": 435,
     "timeWeek": 420,
-    "timeMonth": 464,
+    "timeMonth": 462,
     "timeYear": 474,
     "dailyMinutesDown": {
       "2026-07-30": 460,
