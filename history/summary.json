@@ -6,8 +6,8 @@
     "slug": "marketing",
     "status": "up",
     "uptime": "99.77%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.90%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.77%",
     "time": 7247,
@@ -18,7 +18,8 @@
     "dailyMinutesDown": {
       "2026-06-11": 333,
       "2026-06-10": 85,
-      "2026-08-05": 93
+      "2026-08-05": 93,
+      "2026-10-19": 1
     }
   },
   {
