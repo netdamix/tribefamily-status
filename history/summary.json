@@ -4,21 +4,22 @@
     "url": "https://mytribefamily.com",
     "icon": "https://mytribefamily.com/favicon.ico",
     "slug": "marketing",
-    "status": "up",
+    "status": "down",
     "uptime": "99.79%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.79%",
-    "time": 7247,
-    "timeDay": 0,
-    "timeWeek": 0,
-    "timeMonth": 0,
-    "timeYear": 7247,
+    "time": 6365,
+    "timeDay": 188,
+    "timeWeek": 188,
+    "timeMonth": 188,
+    "timeYear": 6365,
     "dailyMinutesDown": {
       "2026-06-11": 333,
       "2026-06-10": 85,
-      "2026-08-05": 93
+      "2026-08-05": 93,
+      "2026-11-04": 0
     }
   },
   {
